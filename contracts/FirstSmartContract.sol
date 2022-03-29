@@ -3,7 +3,7 @@
 pragma solidity ^0.8.1;
 
 contract MyContract {
-    string public myString = 'Hello World';
+    string public myString = "Hello World";
 }
 
 // JavaScript VM(London) - Contract Address: 0xd9145CCE52D386f254917e481eB44e9943F39138

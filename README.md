@@ -5,7 +5,7 @@ Practice exercises developed by Eduardo Aire Torres for the course.
 <details>
   <summary>Blockchain Networks</summary>
 
-  ### [firstSmartContract.sol](./firstSmartContract.sol)
+  ### [FirstSmartContract.sol](./contracts/FirstSmartContract.sol)
 
   - JavaScript VM(London) deploy 0xd9145CCE52D386f254917e481eB44e9943F39138
   
@@ -21,4 +21,7 @@ Practice exercises developed by Eduardo Aire Torres for the course.
 
 <details>
   <summary>Simple Variables</summary>
+
+  ### [Variables.sol](./contracts/Variables.sol)
+
 </details>

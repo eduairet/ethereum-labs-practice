@@ -3,7 +3,7 @@
 Practice exercises developed by Eduardo Aire Torres for the course.
 
 <details>
-  <summary>Lab: Blockchain Networks</summary>
+  <summary>Blockchain Networks</summary>
 
   ### [firstSmartContract.sol](./firstSmartContract.sol)
 
@@ -11,9 +11,14 @@ Practice exercises developed by Eduardo Aire Torres for the course.
   
   ![JavaScript VM](./util/images/javaScriptVM.png)
   
-  
   - Ropsten deploy [0x8346f00379d30Dc3bf7D069C96a65ec6B30ac0EF](https://ropsten.etherscan.io/address/0x8346f00379d30Dc3bf7D069C96a65ec6B30ac0EF)
   
   - Web3 Provider deploy 0x3dc61BFDa63a4FbA5C9bB5C20a99c97cecb90a9a
   
   ![JavaScript VM](./util/images/web3provider.png)
+  
+</details>
+
+<details>
+  <summary>Simple Variables</summary>
+</details>

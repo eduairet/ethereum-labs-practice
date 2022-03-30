@@ -27,3 +27,10 @@ Practice exercises developed by Eduardo Aire Torres for the course.
   #### [RollOver8.sol](./contracts/RollOver8.sol) pragma solidity ^0.8.1;
 
 </details>
+
+<details>
+  <summary>Deposit, withdraw</summary>
+
+  #### [SendMoneyExample.sol](./contracts/SendMoneyExample.sol)
+
+</details>

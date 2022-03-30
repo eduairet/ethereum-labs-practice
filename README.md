@@ -24,6 +24,6 @@ Practice exercises developed by Eduardo Aire Torres for the course.
 
   #### [Variables.sol](./contracts/Variables.sol)
   #### [RollOver7.sol](./contracts/RollOver7.sol) pragma solidity 0.7.0;
-  #### [RollOver8.sol](./contracts/RollOver8.sol) pragma solidity ^0.8.13;
+  #### [RollOver8.sol](./contracts/RollOver8.sol) pragma solidity ^0.8.1;
 
 </details>

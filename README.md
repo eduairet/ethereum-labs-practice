@@ -41,3 +41,10 @@ Practice exercises developed by Eduardo Aire Torres for the course.
   #### [StartStopUpdateExample.sol](./contracts/StartStopUpdateExample.sol)
 
 </details>
+
+<details>
+  <summary>Simple mappings</summary>
+
+  #### [SimpleMappingExample.sol](./contracts/SimpleMappingExample.sol)
+
+</details>

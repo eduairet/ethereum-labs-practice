@@ -34,3 +34,10 @@ Practice exercises developed by Eduardo Aire Torres for the course.
   #### [SendMoneyExample.sol](./contracts/SendMoneyExample.sol)
 
 </details>
+
+<details>
+  <summary>Start, stop and destroy</summary>
+
+  #### [StartStopUpdateExample.sol](./contracts/StartStopUpdateExample.sol)
+
+</details>

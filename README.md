@@ -43,8 +43,9 @@ Practice exercises developed by Eduardo Aire Torres for the course.
 </details>
 
 <details>
-  <summary>Simple mappings</summary>
+  <summary>Mappings and Struct</summary>
 
   #### [SimpleMappingExample.sol](./contracts/SimpleMappingExample.sol)
+  #### [MappingStructExample.sol](./contracts/MappingStructExample.sol)
 
 </details>

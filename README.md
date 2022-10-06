@@ -2,7 +2,13 @@
 
 ## Notes
 
-- [Remix](./notes/remix.md)
+1. [Remix IDE](./notes/remix.md)
+2. [Blockchain basics](./notes/blockchain-basics.md)
+
+## Resources
+
+-   [Documentation](https://ethereum-blockchain-developer.com/)
+-   [Resources](https://docs.google.com/spreadsheets/d/1OO06RZ7vw8-Hij8ZxB68FaRYRtQEz3GifnLDNwW8sTs/edit#gid=1051902784)
 
 ## Practice
 
@@ -13,13 +19,13 @@ Practice exercises developed during the course.
 
 ### [FirstSmartContract.sol](./contracts/FirstSmartContract.sol)
 
-- JavaScript VM(London) deploy 0xd9145CCE52D386f254917e481eB44e9943F39138
+-   JavaScript VM(London) deploy 0xd9145CCE52D386f254917e481eB44e9943F39138
 
 ![JavaScript VM](./util/images/javaScriptVM.png)
 
-- Ropsten deploy [0x8346f00379d30Dc3bf7D069C96a65ec6B30ac0EF](https://ropsten.etherscan.io/address/0x8346f00379d30Dc3bf7D069C96a65ec6B30ac0EF)
+-   Ropsten deploy [0x8346f00379d30Dc3bf7D069C96a65ec6B30ac0EF](https://ropsten.etherscan.io/address/0x8346f00379d30Dc3bf7D069C96a65ec6B30ac0EF)
 
-- Web3 Provider deploy 0x3dc61BFDa63a4FbA5C9bB5C20a99c97cecb90a9a
+-   Web3 Provider deploy 0x3dc61BFDa63a4FbA5C9bB5C20a99c97cecb90a9a
 
 ![JavaScript VM](./util/images/web3provider.png)
 

@@ -40,8 +40,8 @@ contract MyInt {
     // Signed integers
     int8 public intInc = 10;
     int8 public myInt;
-
     int16 public myNegativeInt;
+
     // Unsigned integers
     uint256 public uintInc = 1000;
     uint256 public myUint;

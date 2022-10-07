@@ -30,7 +30,7 @@
 
 -   Unsigned
 
-    -   Large size, between `2 ** 8` to `2 ** 256 - 1`, always absolute numbers
+    -   Large size, between `2 ** 8 - 1` to `2 ** 256 - 1`, always absolute numbers
 
 ```Solidity
 //SPDX-License-Identifier: MIT

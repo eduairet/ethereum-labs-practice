@@ -1,8 +1,8 @@
-# Blockchain basics
+# Blockchain Basics
 
 ## What is a smart contract?
 
--   Piece of code that runs on the blockchain and needs a transaction to change it's state.
+-   Piece of code that runs on the blockchain and needs a transaction to change it's state
 -   Is turing complete, which in theory allows it to solve any computation problem
 -   They're written in a high-level programming language (Vyper, Solidity) which translates the code into EVM Bytecode
 -   Every node in the Ethereum network will execute the same code
@@ -24,7 +24,7 @@
 -   Example of the structure:
 
     ```Solidity
-    //SPDX-License-Identifier: Undefined
+    //SPDX-License-Identifier: undefined
     pragma solidity 0.8.14;
 
     contract MyContract {

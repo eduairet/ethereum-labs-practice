@@ -2,7 +2,7 @@
 
 ## Booleans
 
-> True or False value
+-   True or False value
 
 -   A public boolean in solidity will look like this:
 
@@ -10,7 +10,7 @@
     //SPDX-License-Identifier: MIT
     pragma solidity 0.8.14;
 
-    contract Boolean{
+    contract Boolean {
         // Initialized with default value (false), no undefined or null
         bool public myBool;
         // Function changes myBool when is called
@@ -20,7 +20,7 @@
     }
     ```
 
-[Reference boobleans](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/01-boolean/)
+-   [Reference boobleans](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/01-boolean/)
 
 ## Integers
 
@@ -94,8 +94,8 @@ contract ExampleWrapAround {
 }
 ```
 
-[Reference integers](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/02-integer/)
-[Reference rollovers](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/03-integer-rollovers)
+-   [Reference integers](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/02-integer/)
+-   [Reference rollovers](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/03-integer-rollovers)
 
 ## Strings and bytes
 
@@ -124,7 +124,7 @@ contract MyStrings {
 }
 ```
 
-[Reference strings and bytes](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/04-strings-bytes/)
+-   [Reference strings and bytes](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/04-strings-bytes/)
 
 ## Addresses
 
@@ -146,7 +146,7 @@ contract MyAddress{
 }
 ```
 
-[Reference addresses](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/05-ethereum-addresses/)
+-   [Reference addresses](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/05-ethereum-addresses/)
 
 ## The `msg` object
 

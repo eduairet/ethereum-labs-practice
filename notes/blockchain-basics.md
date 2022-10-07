@@ -15,7 +15,7 @@
 -   Has conditionals `if/else`
 -   Has loops `for/while`
 -   Has data types
-    -   Unsigned integers `uint`, booleans, arrays
+    -   Unsigned and signed integers `int/uint`, booleans, arrays
     -   Structs, mappings, addresses
     -   No floating point numbers are allowed
 -   Is inheritable
@@ -23,14 +23,14 @@
 -   It has imports
 -   Example of the structure:
 
-```Solidity
-//SPDX-License-Identifier: Undefined
-pragma solidity 0.8.14;
+    ```Solidity
+    //SPDX-License-Identifier: Undefined
+    pragma solidity 0.8.14;
 
-contract MyContract {
-    // Contract body
-}
-```
+    contract MyContract {
+        // Contract body
+    }
+    ```
 
 -   The first line of every contract is the [The Software Package Data Exchange® (SPDX®)](https://spdx.dev/), if you don't have a license add `Undefined` if not add the name of the license, like `MIT`
     ```Solidity

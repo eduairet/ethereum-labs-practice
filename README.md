@@ -4,6 +4,7 @@
 
 1. [Remix IDE](./notes/remix.md)
 2. [Blockchain basics](./notes/blockchain-basics.md)
+3. [Ethereum primitives and objects](./notes/primitives-objects.md)
 
 ## Resources
 

@@ -20,7 +20,7 @@
     }
     ```
 
-[Reference](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/01-boolean/)
+[Reference boobleans](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/01-boolean/)
 
 ## Integers
 
@@ -94,7 +94,7 @@ contract ExampleWrapAround {
 }
 ```
 
-[Reference](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/02-integer/)
+[Reference integers](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/02-integer/)
 [Reference rollovers](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/03-integer-rollovers)
 
 ## Strings and bytes
@@ -124,6 +124,45 @@ contract MyStrings {
 }
 ```
 
-[Reference](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/04-strings-bytes/)
+[Reference strings and bytes](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/04-strings-bytes/)
 
 ## Addresses
+
+-   20 bytes worth of an Ethereum address (account) `0x0000000000000000000000000000000000000000` (default value)
+
+```Solidity
+//SPDX-License-Identifier: MIT
+pragma solidity 0.8.15;
+
+contract MyAddress{
+    address public someAddress;
+    function setSomeAddress(address newAddress) public {
+        someAddress = newAddress;
+    }
+    //Reading (view returns(value type)) the value of an address
+    function getBalance() public view returns(uint) {
+        return someAddress.balance;
+    }
+}
+```
+
+[Reference addresses](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/05-ethereum-addresses/)
+
+## The `msg` object
+
+```Solidity
+///SPDX-License-Identifier: MIT
+pragma solidity 0.8.15;
+
+
+contract MsgObject {
+
+    address public someAddress;
+
+    function updateAddress() public {
+        someAddress = msg.sender;
+        // msg.sender is the address that lastly interacted with the contract
+    }
+
+}
+```

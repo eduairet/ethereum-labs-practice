@@ -1,6 +1,6 @@
 # Remix
 
-## [remix.ethereum.org](https://remix.ethereum.org) ^[Be careful with the security protocol, if it starts `http` and then changes to `https` your content will be lost.]
+## [remix.ethereum.org](https://remix.ethereum.org) [^1]
 
 > -   Online IDE for solidity development
 > -   The easiest way to get into Ethereum development
@@ -24,3 +24,5 @@
 ---
 
 #### Check deeper documentation [here](https://ethereum-blockchain-developer.com/2022-01-remix-introduction/01-setup-remix/)
+
+[^1]: Be careful with the security protocol, if it starts `http` and then changes to `https` your content will be lost.

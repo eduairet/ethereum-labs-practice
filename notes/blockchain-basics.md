@@ -32,7 +32,7 @@
     }
     ```
 
--   The first line of every contract is the [The Software Package Data Exchange® (SPDX®)](https://spdx.dev/), if you don't have a license add `Undefined` if not add the name of the license, like `MIT`
+-   The first line of every contract is the [The Software Package Data Exchange® (SPDX®)](https://spdx.dev/), if you don't have a license add `undefined` if you have one add its name like `MIT`
     ```Solidity
     //SPDX-License-Identifier: Undefined
     ```

@@ -1,5 +1,30 @@
 # Ethereum primitives and objects
 
+## Variables
+
+-   Always initialized with a default value (no null, undefined)
+    -   `(u)int = 0`
+    -   `bool = false`
+    -   `string = ""`
+-   Public variables have a getter with the variable name
+    -   Variables and functions cannot share the same name
+-   All reference types (arrays, strings, etc) need a memory location
+-   Variable construction needs the type of value, the name of the variable and if it's posible, the value (inside functions for example)
+
+    ```Solidity
+    //SPDX-License-Identifier: MIT
+    pragma solidity 0.8.15;
+
+    contract MyContract {
+        bool myVar;
+        function changeBool() public returns(bool){
+            bool opposite = !myVar;
+            myVar = opposite;
+            return myVar;
+        }
+    }
+    ```
+
 ## Booleans
 
 -   True or False value
@@ -20,16 +45,21 @@
     }
     ```
 
+    -   They can be the result of comparisons with _or_ and _and_ `|| &&`
+
 -   [Reference boobleans](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/01-boolean/)
 
 ## Integers
 
+-   Numbers in ranges of 8bit increments
+-   No decimals
 -   Signed
 
     -   Whole numbers, negative included
+    -   `int8 range(-128, 127)`
 
 -   Unsigned
-
+    -   `uint` is an alias for `uint256`
     -   Large size, between `2 ** 8 - 1` to `2 ** 256 - 1`, always absolute numbers
 
 ```Solidity
@@ -100,8 +130,10 @@ contract ExampleWrapAround {
 
 ## Strings and bytes
 
--   Strings are basically byte arrays
--   Strings are expensive to store in the Blockchain, that's the reason why thwy don't have much functionality
+-   Bytes are arebitrary length of raw data
+-   Strings are basically byte arrays of `utf-8` data
+    -   The main difference between strings and bytes is that strings don't have length or index-access
+-   Strings are expensive to store in the Blockchain, that's the reason why they don't have much functionality
 
 ```Solidity
 //SPDX-License-Identifier: MIT
@@ -130,6 +162,8 @@ contract MyStrings {
 ## Addresses
 
 -   20 bytes worth of an Ethereum address (account) `0x0000000000000000000000000000000000000000` (default value)
+-   Are used to transfer ether from one account to another and check the balance in wei of them
+    -   `.transfer() .send() .call.value()() .delegatecall() payable .balance`
 
 ```Solidity
 //SPDX-License-Identifier: MIT

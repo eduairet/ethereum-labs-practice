@@ -166,6 +166,7 @@ contract MyStrings {
 -   20 bytes worth of an Ethereum address (account) `0x0000000000000000000000000000000000000000` (default value)
 -   Are used to transfer ether from one account to another and check the balance in wei of them
     -   `.transfer() .send() .call.value()() .delegatecall() payable .balance`
+-   The contract balance can be retreived with `address(this).balance`
 
 ```Solidity
 //SPDX-License-Identifier: MIT

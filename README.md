@@ -53,6 +53,16 @@ Practice exercises developed during the course.
 </details>
 
 <details>
+  <summary>Smart Money</summary>
+
+#### [SmartMoney.sol](./contracts/SmartMoney.sol) pragma solidity 0.8.15;
+
+-   Deployment: [0x3e3a243eCd1D7651D99c34A1E65f3f52Af0f3D0D](https://mumbai.polygonscan.com/address/0x3e3a243eCd1D7651D99c34A1E65f3f52Af0f3D0D)
+-   [Reference exercise](https://ethereum-blockchain-developer.com/2022-03-deposit-withdrawals/11-the-smart-money-implementation/)
+
+</details>
+
+<details>
   <summary>Deposit, withdraw</summary>
 
 #### [SendMoneyExample.sol](./contracts/SendMoneyExample.sol)

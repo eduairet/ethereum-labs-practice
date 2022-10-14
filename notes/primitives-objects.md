@@ -1,4 +1,4 @@
-# Ethereum primitives and objects
+# Ethereum Primitives and Objects
 
 ## Variables
 
@@ -47,7 +47,7 @@
 
     -   They can be the result of comparisons with _or_ and _and_ `|| &&`
 
--   [Reference boobleans](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/01-boolean/)
+[Reference boobleans](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/01-boolean/)
 
 ## Integers
 
@@ -125,6 +125,8 @@ contract ExampleWrapAround {
 }
 ```
 
+References
+
 -   [Reference integers](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/02-integer/)
 -   [Reference rollovers](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/03-integer-rollovers)
 
@@ -157,7 +159,7 @@ contract MyStrings {
 }
 ```
 
--   [Reference strings and bytes](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/04-strings-bytes/)
+[Reference strings and bytes](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/04-strings-bytes/)
 
 ## Addresses
 
@@ -181,9 +183,31 @@ contract MyAddress{
 }
 ```
 
--   [Reference addresses](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/05-ethereum-addresses/)
+[Reference addresses](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/05-ethereum-addresses/)
+
+## Payable
+
+-   If you want to allow the contract functions to receive or send ETH value, you'll need to make it `payable`
+
+    ```Solidity
+    //SPDX-License-Identifier: MIT
+    pragma solidity 0.8.14;
+
+    contract PayableFunction {
+        function deposit() public payable{}
+        function withdraw(uint ammount) public{
+            // Wrap the sender in a payable() modifier function to allow it to receive eth
+            payable(msg.sender).transfer(ammount);
+            // Every account has a transfer function for default
+        }
+    }
+    ```
+
+[Reference Payable Modifier](https://ethereum-blockchain-developer.com/2022-03-deposit-withdrawals/08-the-payable-modifier/)
 
 ## The `msg` object
+
+### msg.sender
 
 ```Solidity
 ///SPDX-License-Identifier: MIT
@@ -201,3 +225,30 @@ contract MsgObject {
 
 }
 ```
+
+### msg.value
+
+-   This is the value that a sender is defining for a transaction
+
+    ```Solidity
+    //SPDX-License-Identifier: MIT
+    pragma solidity 0.8.16;
+
+    contract PayableMsgValue {
+        string public myMessage;
+
+        constructor() {
+            myMessage = "Hi!";
+        }
+
+        function changeMessage(string memory newMessage) public payable {
+            // Message will only change if the msg.value is equal to 1 eth
+            if (msg.value == 1 ether) {
+                myMessage = newMessage;
+            } else {
+                // If the msg.value is not equal to 1 eth the money will come back to the sender
+                payable(msg.sender).transfer(msg.value);
+            }
+        }
+    }
+    ```

@@ -3,12 +3,12 @@
 ## Notes
 
 1. [Remix IDE](./notes/remix.md)
-2. [Blockchain basics](./notes/blockchain-basics.md)
-3. [Ethereum primitives and objects](./notes/primitives-objects.md)
+2. [Ethereum Blockchain Basics](./notes/blockchain-basics.md)
+3. [Ethereum Primitives and Objects](./notes/primitives-objects.md)
 4. [Functions](./notes/functions.md)
 5. [Constructor](./notes/constructor.md)
 
-## Resources
+## Docs
 
 -   [Documentation](https://ethereum-blockchain-developer.com/)
 -   [Resources](https://docs.google.com/spreadsheets/d/1OO06RZ7vw8-Hij8ZxB68FaRYRtQEz3GifnLDNwW8sTs/edit#gid=1051902784)
@@ -42,6 +42,13 @@ Practice exercises developed during the course.
 #### [RollOver7.sol](./contracts/RollOver7.sol) pragma solidity 0.7.0;
 
 #### [RollOver8.sol](./contracts/RollOver8.sol) pragma solidity ^0.8.1;
+
+</details>
+
+<details>
+  <summary>Blockchain Messenger</summary>
+
+#### [BlockchainMessenger.sol](./contracts/BlockchainMessenger.sol) pragma solidity 0.8.17;
 
 </details>
 

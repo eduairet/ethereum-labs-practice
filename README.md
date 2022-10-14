@@ -7,6 +7,7 @@
 3. [Ethereum Primitives and Objects](./notes/primitives-objects.md)
 4. [Functions](./notes/functions.md)
 5. [Constructor](./notes/constructor.md)
+6. [Mappings](./notes/mappings.md)
 
 ## Docs
 

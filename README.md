@@ -8,6 +8,7 @@
 4. [Functions](./notes/functions.md)
 5. [Constructor](./notes/constructor.md)
 6. [Mappings](./notes/mappings.md)
+7. [Structs](./notes/structs.md)
 
 ## Docs
 

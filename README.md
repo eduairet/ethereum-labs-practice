@@ -9,6 +9,7 @@
 5. [Constructor](./notes/constructor.md)
 6. [Mappings](./notes/mappings.md)
 7. [Structs](./notes/structs.md)
+8. [Exceptions](./notes/exceptions.md)
 
 ## Docs
 

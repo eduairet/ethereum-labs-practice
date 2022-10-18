@@ -1,4 +1,4 @@
-# Ethereum Primitives and Objects
+# Ethereum Primitives
 
 ## Variables
 

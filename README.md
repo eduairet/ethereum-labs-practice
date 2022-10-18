@@ -4,12 +4,14 @@
 
 1. [Remix IDE](./notes/remix.md)
 2. [Ethereum Blockchain Basics](./notes/blockchain-basics.md)
-3. [Ethereum Primitives and Objects](./notes/primitives-objects.md)
+3. [Ethereum Primitives](./notes/primitives-objects.md)
 4. [Functions](./notes/functions.md)
 5. [Constructor](./notes/constructor.md)
 6. [Mappings](./notes/mappings.md)
 7. [Structs](./notes/structs.md)
 8. [Exceptions](./notes/exceptions.md)
+9. [Exceptions](./notes/exceptions.md)
+10. [External Function Calls and Low-Level Calls](./notes/low-level-calls.md)
 
 ## Docs
 

@@ -40,7 +40,7 @@ Practice exercises developed during the course.
 <details>
   <summary>Simple Variables</summary>
 
-#### [Variables.sol](./contracts/Variables.sol)
+#### [Variables.sol](./contracts/Variables.sol) pragma solidity ^0.8.13;
 
 #### [RollOver7.sol](./contracts/RollOver7.sol) pragma solidity 0.7.0;
 

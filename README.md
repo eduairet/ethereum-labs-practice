@@ -1,5 +1,7 @@
 # Ethereum Blockchain Developer Bootcamp With Solidity (2022)
 
+Notes and exercises by [@eduairet](https://github.com/eduairet)
+
 ## Notes
 
 1. [Remix IDE](./notes/remix.md)
@@ -11,11 +13,6 @@
 7. [Structs](./notes/structs.md)
 8. [Exceptions](./notes/exceptions.md)
 9. [External Function Calls and Low-Level Calls](./notes/low-level-calls.md)
-
-## Docs
-
--   [Documentation](https://ethereum-blockchain-developer.com/)
--   [Resources](https://docs.google.com/spreadsheets/d/1OO06RZ7vw8-Hij8ZxB68FaRYRtQEz3GifnLDNwW8sTs/edit#gid=1051902784)
 
 ## Practice
 
@@ -80,3 +77,8 @@ Practice exercises developed during the course.
 -   #### [MappingStructExample.sol](./contracts/MappingStructExample.sol)
 
 </details>
+
+## Docs
+
+-   [Documentation](https://ethereum-blockchain-developer.com/)
+-   [Resources](https://docs.google.com/spreadsheets/d/1OO06RZ7vw8-Hij8ZxB68FaRYRtQEz3GifnLDNwW8sTs/edit#gid=1051902784)

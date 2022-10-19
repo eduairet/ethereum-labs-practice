@@ -20,7 +20,7 @@ Notes and exercises by [@eduairet](https://github.com/eduairet)
 
 Practice exercises developed during the course.
 
-### Legacy exercises
+### Legacy content
 
 <details>
   <summary>Blockchain Networks</summary>
@@ -41,13 +41,6 @@ Practice exercises developed during the course.
 -   #### [Variables.sol](./contracts/Variables.sol)
 -   #### [RollOver7.sol](./contracts/RollOver7.sol)
 -   #### [RollOver8.sol](./contracts/RollOver8.sol)
-
-</details>
-
-<details>
-  <summary>Blockchain Messenger</summary>
-
--   #### [BlockchainMessenger.sol](./contracts/BlockchainMessenger.sol)
 
 </details>
 
@@ -76,11 +69,21 @@ Practice exercises developed during the course.
 ### 2022 update
 
 <details>
+  <summary>Blockchain Messenger</summary>
+
+-   #### [BlockchainMessenger.sol](./contracts/BlockchainMessenger.sol)
+
+    -   [Reference](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/10-the-blockchain-messenger/)
+
+</details>
+
+<details>
   <summary>Smart Money</summary>
 
 -   #### [SmartMoney.sol](./contracts/SmartMoney.sol)
 
     -   Deployment: [0x3e3a243eCd1D7651D99c34A1E65f3f52Af0f3D0D](https://mumbai.polygonscan.com/address/0x3e3a243eCd1D7651D99c34A1E65f3f52Af0f3D0D)
+    -   [Reference](https://ethereum-blockchain-developer.com/2022-03-deposit-withdrawals/11-the-smart-money-implementation/)
 
 </details>
 
@@ -88,6 +91,9 @@ Practice exercises developed during the course.
   <summary>Smart Wallet</summary>
 
 -   #### [SmartWallet.sol](./contracts/SmartWallet.sol)
+
+    -   Deployment: [0xA560bCF0cA02147a69B6C5338803a75bbe5C8121](https://mumbai.polygonscan.com/address/0xA560bCF0cA02147a69B6C5338803a75bbe5C8121)
+    -   [Reference](https://ethereum-blockchain-developer.com/2022-04-smart-wallet/09-the-smart-contract-wallet/)
 
 </details>
 

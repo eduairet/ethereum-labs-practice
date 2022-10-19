@@ -1,6 +1,6 @@
 # Structs
 
--   Structs are like classes that contain different types of data
+-   Structs are like classes that contain different types of data (except other structs)
 
     ```Solidity
     //SPDX-License-Identifier: MIT
@@ -71,6 +71,7 @@
             mapping(uint => Transaction) withdrawals;
         }
 
+        // Mapping of structs
         mapping(address => Balance) public balances;
 
         function depositMoney() public payable {

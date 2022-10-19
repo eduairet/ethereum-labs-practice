@@ -1,5 +1,9 @@
 # Ethereum Primitives
 
+> -   All the information of a contract is public (Ether is not in your wallet, is in the blockchain)
+> -   Addresses have a balance and can transfer ETH
+> -   Global objects tell what happens inside a transaction like `block.timestamp`
+
 ## Variables
 
 -   Always initialized with a default value (no null, undefined)
@@ -164,9 +168,16 @@ contract MyStrings {
 ## Addresses
 
 -   20 bytes worth of an Ethereum address (account) `0x0000000000000000000000000000000000000000` (default value)
+    -   User or contract
 -   Are used to transfer ether from one account to another and check the balance in wei of them
-    -   `.transfer() .send() .call.value()() .delegatecall() payable .balance`
--   The contract balance can be retreived with `address(this).balance`
+    -   `.transfer()` -> Sends an amount in wei
+    -   `.send()` -> Sends amount in wei and returns a boolean
+        -   `transfer` and `send` only use 2300 gas and calling a contract will require more, be aware
+    -   `.call{gas: ..., value: ...}()` -> returns a boolean if gas is specified
+    -   `.delegatecall()` -> Similar to call
+    -   `payable` -> makes an address able to receive money
+    -   `.balance` -> balance of an address in wei
+    -   The contract balance can be retreived with `address(this).balance`
 
 ```Solidity
 //SPDX-License-Identifier: MIT
@@ -183,6 +194,8 @@ contract MyAddress{
     }
 }
 ```
+
+-
 
 [Reference addresses](https://ethereum-blockchain-developer.com/2022-02-solidity-basics-blockchain-messenger/05-ethereum-addresses/)
 

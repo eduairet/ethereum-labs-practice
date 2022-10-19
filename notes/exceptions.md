@@ -1,10 +1,17 @@
 # Exceptions
 
+-   Transactions are atomic
+-   Errors are `state reverting`
+-   `require, assert, revert (previously throw)`
+-   They cascade (all contracts involved in a call will fail) except for low level functions
+    -   `address.send() address.call() address.delegatecall() address.staticcall()`
+-   `revert()` and `require()` return an error string
+
 ```Solidity
 //SPDX-License-Identifier: MIT
 pragma solidity 0.8.15;
 
-contract Exceptions {
+contract MyRevert {
     uint public currentPrice;
 
     constructor() {
@@ -12,9 +19,11 @@ contract Exceptions {
     }
 
     function priceUp(uint newPrice) public {
-        // if exception
+        // if exception with revert()
         if (newPrice > currentPrice) {
             currentPrice = newPrice;
+        } else {
+            revert("Not more than current price");
         }
     }
 
@@ -66,9 +75,11 @@ contract ErrorHandling {
             // Code if it works
         } catch Error(string memory reason) {
             // Simple reason, like failing a require (it has a message)
+            // Returns remaining gas
             emit ErrorLogging(reason);
         } catch Panic(uint errorCode) {
             // Code error, like when failing an assertion (no message)
+            // Consumes all the gas
             emit ErrorLogCode(errorCode);
         } catch (bytes memory lowLevelData) {
             // Any other error
@@ -99,6 +110,22 @@ contract ErrorHandling {
 ]
 */
 ```
+
+-   Use assert to validate invariants and require to validate user input
+-   Assert is triggered when:
+    -   Out of bounds index
+    -   Division by zero or module zero (5/0 or 23%0)
+    -   Byteshifting by negative amount
+    -   Convert a very big valueo or negative to enum
+    -   Zero-initialized variable of internal function type
+    -   `assert(x)` where `x` is false
+-   Require is triggered when:
+    -   `require(x)` where `x` is false
+    -   Function call via message calldoesn't finish properly (except low level functions)
+    -   External function call to a contract doesn't contain code
+    -   Contract receives ether without `payable`
+    -   Contract receives ether in a getter function
+    -   `address.transfer()` fails
 
 Reference
 

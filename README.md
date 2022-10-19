@@ -6,17 +6,21 @@ Notes and exercises by [@eduairet](https://github.com/eduairet)
 
 1. [Remix IDE](./notes/remix.md)
 2. [Ethereum Blockchain Basics](./notes/blockchain-basics.md)
-3. [Ethereum Primitives](./notes/primitives-objects.md)
+3. [Primitives](./notes/primitives.md)
 4. [Functions](./notes/functions.md)
 5. [Constructor](./notes/constructor.md)
 6. [Mappings](./notes/mappings.md)
 7. [Structs](./notes/structs.md)
-8. [Exceptions](./notes/exceptions.md)
-9. [External Function Calls and Low-Level Calls](./notes/low-level-calls.md)
+8. [Arrays](./notes/arrays.md)
+9. [Enum](./notes/enum.md)
+10. [Exceptions](./notes/exceptions.md)
+11. [External Function Calls and Low-Level Calls](./notes/low-level-calls.md)
 
 ## Practice
 
 Practice exercises developed during the course.
+
+### Legacy exercises
 
 <details>
   <summary>Blockchain Networks</summary>
@@ -48,15 +52,6 @@ Practice exercises developed during the course.
 </details>
 
 <details>
-  <summary>Smart Money</summary>
-
--   #### [SmartMoney.sol](./contracts/SmartMoney.sol)
-
-    -   Deployment: [0x3e3a243eCd1D7651D99c34A1E65f3f52Af0f3D0D](https://mumbai.polygonscan.com/address/0x3e3a243eCd1D7651D99c34A1E65f3f52Af0f3D0D)
-
-</details>
-
-<details>
   <summary>Deposit, withdraw</summary>
 
 -   #### [SendMoneyExample.sol](./contracts/SendMoneyExample.sol)
@@ -75,6 +70,24 @@ Practice exercises developed during the course.
 
 -   #### [SimpleMappingExample.sol](./contracts/SimpleMappingExample.sol)
 -   #### [MappingStructExample.sol](./contracts/MappingStructExample.sol)
+
+</details>
+
+### 2022 update
+
+<details>
+  <summary>Smart Money</summary>
+
+-   #### [SmartMoney.sol](./contracts/SmartMoney.sol)
+
+    -   Deployment: [0x3e3a243eCd1D7651D99c34A1E65f3f52Af0f3D0D](https://mumbai.polygonscan.com/address/0x3e3a243eCd1D7651D99c34A1E65f3f52Af0f3D0D)
+
+</details>
+
+<details>
+  <summary>Smart Wallet</summary>
+
+-   #### [SmartWallet.sol](./contracts/SmartWallet.sol)
 
 </details>
 

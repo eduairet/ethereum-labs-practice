@@ -7,7 +7,7 @@
     pragma solidity 0.8.15;
 
     contract MyMapping {
-        //mapping(key tyupe => value type) Visibility MappingName;
+        //mapping(key type => value type) Visibility MappingName;
         mapping(uint => bool) public myMapping;
 
         // Mappings come with a built in getter function to check the value of certain entry
@@ -104,6 +104,7 @@
     ```
 
 -   The `require()` function is very helpful as a conditional for transactions and gives the user an error message if the process is not successful
+-   Iterable mappings are accessible through external libraries
 
 References
 

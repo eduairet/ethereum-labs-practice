@@ -35,3 +35,6 @@
 Reference
 
 -   [Intro](https://ethereum-blockchain-developer.com/2022-05-erc20-token/01-web3js-introduction/)
+
+## Event Listeners
+

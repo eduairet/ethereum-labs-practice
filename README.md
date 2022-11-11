@@ -15,8 +15,9 @@ Notes and exercises by [@eduairet](https://github.com/eduairet)
 9. [Enum](./notes/enum.md)
 10. [Exceptions](./notes/exceptions.md)
 11. [External Function Calls and Low-Level Calls](./notes/low-level-calls.md)
-12. [Web3.js](./notes/web3-js.md)
-12. [ABI Array](./notes/abi.md)
+12. [Events](./notes/events.md)
+13. [Web3.js](./notes/web3-js.md)
+14. [ABI Array](./notes/abi.md)
 
 ## Practice
 

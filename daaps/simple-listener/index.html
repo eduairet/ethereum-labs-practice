@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simple Listener</title>
+        <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    </head>
+    <body>
+        <button class="enableMetamask">Enable MetaMask</button>
+        <h2><span class="statusText"></span></h2>
+        <p class="balance"></p>
+        <h4>Contract:</h4>
+        <p id="address">0x7B2c2d7085360C21b4fF460c2C6310706413d326</p>
+        <button class="startStopEventListener" disabled="true">
+            Listen to Events
+        </button>
+        <p class="incommingEvents" style="color: red"></p>
+        <p class="eventResult"></p>
+        <p class="filtered" style="color: green"></p>
+        <hr />
+        <footer>
+            <small>
+                Based on an example of Events from
+                <a href="https://ethereum-blockchain-developer.com"
+                    >Ethereum-Blockchain-Developer.com</a
+                >
+            </small>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>

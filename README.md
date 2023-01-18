@@ -18,6 +18,7 @@ Notes and exercises by [@eduairet](https://github.com/eduairet)
 12. [Events](./notes/events.md)
 13. [Web3.js](./notes/web3-js.md)
 14. [ABI Array](./notes/abi.md)
+15. [Modifiers And Inheritance](./notes/modifiers-inheritance.md)
 
 ## Practice
 
